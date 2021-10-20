@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    
+<header>
+    <h1 id="title">CodeUniverse Survey Form</h1>
+    <p id="description"><i>Thanks for taking the time to help us improve the platform!</i></p>
+    <header>
+    
+    <!------ FORM SECTION ------>
+      
+    <form id="survey-form"> 
+      
+    <fieldset>
+      <div class="formcontrol">
+        <label for="name" id="name-label">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+      </div>
+      
+        <div class="formcontrol">
+        <label for="email" id="email-label">E-mail</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+      </div>
+      
+       <div class="formcontrol">
+        <label for="number" id="number-label">Age</label>
+        <input id="number" type="number" placeholder="Enter your age" min="12" max="99">
+       </div>
+      
+      <div class="formcontrol">
+        <label for="role">Which option best describes your current role?</label>
+        <select name="role" id="dropdown">
+          <option value="student">Student</option>
+          <option value="full-time">Full-time</option>
+          <option value="prefer_not_to_say">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      
+      
+      <div class="formcontrol">
+        <label>What is your favorite feature of freeCodeCamp?</label>
+        <label for="recommendation-1"><input type="radio" id="recommendation-1" name="recommendation" value="definitely">Definitely</label>
+        <label for="recommendation-2"><input type="radio" id="recommendation-2" name="recommendation" value="maybe">Maybe</label>
+        <label for="recommendation-3"><input type="radio" id="recommendation-3" name="recommendation" value="not sure">Not sure</label>
+      </div>
+      
+     <div class="formcontrol">
+       <label>What would you like to see improved?</label>
+      <label for="improve-1"><input type="checkbox" name"improve" id="improve-1" value="improve-1"/>Front-end Projects</label>
+      <label for="improve-2"><input type="checkbox" name"improve" id="improve-2" value="improve-2"/>Back-end Projects</label>
+      <label for="improve-3"><input type="checkbox" name"improve" id="improve-3" value="improve-3"/>Data Visualization</label>
+      <label for="improve-4"><input type="checkbox" name"improve" id="improve-4" value="improve-4"/>Challenges</label>
+      <label for="improve-5"><input type="checkbox" name"improve" id="improve-5" value="improve-5"/>Open Source Community</label>
+     </div>
+      
+      <div class="formcontrol">
+        <label for="comments">Any comments or suggestions?</label>
+        <textarea name="comments" id="commments" cols="30" rows="10" placeholder="Enter you comment here"></textarea>
+      </div>
+      
+      <button id="submit">Submit</button>
+      </form>
+    </fieldset>
+    
+</body>
+</html>

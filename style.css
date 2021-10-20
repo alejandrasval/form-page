@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background-color: #EDEDED;
+}
+
+#title {
+  font-family: 'Glory', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #6C4A4A;
+}
+
+#description {
+   font-family:'Glory', sans-serif;
+   font-size: 1rem;
+   text-align: center;
+   color: #6C4A4A;
+}
+
+body {
+  font-family:'Glory', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+form {
+  border: none;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+fieldset {
+  background-color: white;
+}
+
+.formcontrol {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.formcontrol label {
+  background-color: white;
+  display: block;
+}
+
+.formcontrol input {
+  display: block;
+  border: none;
+  width: 100%;
+}
+
+.formcontrol select {
+  font-family:'Glory', sans-serif;
+  border: none;
+  width: 100%;
+  display: block;
+}
+
+.formcontrol input [type="radio"], formcontrol input [checkbox] {
+  display: inline-block;
+  width: auto;
+}
+
+button {
+  font-family:'Glory', sans-serif;
+  font-size: 1rem;
+  border-radius: 5rem;
+  color: white;
+  border: none;
+  background-color: #6C4A4A;
+}
